@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25mm"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Add a players name"
+        />
+
+
+    <EditText
+        android:id="@+id/playerName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:ems="10"
+        android:hint="Player 1"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/playerName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Player 2"
+        android:textSize="20dp" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="Choose dimension"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="222dp">
+
+    </Spinner>
+</RelativeLayout>
+    <Button
+        android:id="@+id/addName"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:text="Start"
+        app:backgroundTint="#B1AFAF" />
+
+</LinearLayout>
